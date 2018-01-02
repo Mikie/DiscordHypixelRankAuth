@@ -1,0 +1,4 @@
+{
+  "hypixel_api_key": "Your hypixel API key. You can get this by typing /api on Hypixel.",
+  "bot_token": "Bot token if using bot account"
+}
