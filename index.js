@@ -56,8 +56,8 @@ client.on("message", message => {
         })
     }
 
-    if (message.content.startsWith(".linkhelp ")) {
-        message.reply("")
+    if (message.content  === ".linkhelp") {
+        message.reply("How to verify your Hypixel Rank:\n:arrow_forward: Join the Hypixel Network\n:arrow_forward: Click on your head in your hotbar\n:arrow_forward: Click on the Social Media icon\n:arrow_forward: Click on the Discord icon\n:arrow_forward: Enter your Discord username\n`EX: Test#1234`\n:arrow_forward: Then type `.ign {Your MC Username}`\nWe accept YouTubers, Hypixel Staff, and MVP++")
     }
 
 });
